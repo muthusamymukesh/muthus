@@ -1,15 +1,11 @@
-#incude<stdio.h>
-void main()
+#include<stdio.h>
+int main()
 {
-char a,b;
-printf("enter b");
-for(a>='A'||a>=''a&&a<='Z'||a<='z')
-if(a==b)
-{
-printf("alphabet");
-}
+char a;
+printf("enter a");
+scanf("%c",&a);
+if((a>='A'&&a<='Z')||(a>='a'&&a<='z'))
+printf("%calphabet",a);
 else
-{
-printf("not alphabet");
-}
+printf("%cnot alphabet",a);
 }
